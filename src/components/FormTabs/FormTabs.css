@@ -1,0 +1,95 @@
+
+.tab-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-name-color{
+    color:gray;
+    font-weight:500;
+}
+  
+.tab-item:not(:first-child):before {
+    content: '';
+    background-color: #7a7a7a;
+    position: absolute;
+    width:100%;
+    height: 20px;
+    right: 50%;
+    top: 0%;
+}
+
+/* .tab-items::after {
+    content: '';
+    background-color: #7a7a7a; 
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top:0%;
+    right:0%;
+} */
+  
+.tab {
+    width: 20px; /* Adjust size of tab circle */
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    color: #4a5568; /* Customize tab circle color */
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: white;
+}
+
+.tab .circle-for-tab{
+    width:15px;
+    height:15px;
+    border-radius:100%;
+    background-color:#4a5568;
+}
+  
+.active .tab .circle-for-tab {
+    background-color:#0000ff; /* Customize active tab circle color */
+}
+  
+.complete .tab .circle-for-tab {
+    background-color: #48bb78; /* Customize completed tab circle color */
+}
+  
+.complete p {
+    color:#48bb78; /* Customize text color inside completed tabs */
+}
+  
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+    background-color: #48bb78; /* Customize line color between active and completed tabs */
+}
+  
+
+
+@media (max-width:1199.5px) {
+    .tab-items:not(:first-child):before {
+        width: 615%;
+    }
+}
+
+@media (max-width:991px) {
+    .tab-items:not(:first-child):before {
+        width: 570%;
+    }
+}
+
+@media (max-width:768px) {
+    .tab-items:not(:first-child):before {
+        width: 500%;
+    }
+}
+
+@media (max-width:576px) {
+    
+}

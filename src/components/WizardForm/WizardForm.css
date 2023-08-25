@@ -1,0 +1,11 @@
+.wizard-form-background-center{    
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.wizard-form-content{
+    position: relative;
+    text-align: center;
+}
