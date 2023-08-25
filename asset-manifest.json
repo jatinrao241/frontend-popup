@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-popup/static/css/main.741fc8ad.css",
+    "main.js": "/frontend-popup/static/js/main.ec0803f0.js",
+    "index.html": "/frontend-popup/index.html",
+    "main.741fc8ad.css.map": "/frontend-popup/static/css/main.741fc8ad.css.map",
+    "main.ec0803f0.js.map": "/frontend-popup/static/js/main.ec0803f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.741fc8ad.css",
+    "static/js/main.ec0803f0.js"
+  ]
+}
